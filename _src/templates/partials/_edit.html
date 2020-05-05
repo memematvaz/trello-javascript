@@ -1,0 +1,119 @@
+<div class="js-edit js-edit-close app-edit modal d-none" tabindex="-1">
+  <section class="js-edit-modal modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content bg-light shadow border-0">
+      <form>
+        <!-- header -->
+        <div class="modal-header border-bottom-0">
+          <h5 class="modal-title d-flex w-100">
+            <span class="fas fa-columns mt-3 mr-2 text-muted"></span>
+            <div class="w-100">
+              <input
+                class="app-edit-title form-control mb-0 border-0"
+                placeholder="Filtrar tarjetas"
+                type="text"
+                value="Unificar funcionalidad"
+              />
+              <small class="app-edit-subtitle d-block mt-0 text-muted">
+                en la lista <strong>Por hacer</strong>
+              </small>
+            </div>
+          </h5>
+          <button type="button" class="js-edit-close close" data-dismiss="modal">
+            <span>&times;</span>
+          </button>
+        </div>
+
+        <!-- content -->
+        <div class="modal-body">
+          <div class="row">
+            <!-- left column -->
+            <div class="col-xl-9 col-8">
+              <!-- description -->
+              <div class="container-fluid mb-4">
+                <div class="row">
+                  <div class="col-1 pl-0 pr-0">
+                    <span class="fas fa-align-left text-muted"></span>
+                  </div>
+                  <div class="col-11 pl-0 pr-0">
+                    <h6 class="h6">Descripción</h6>
+                    <textarea class="app-edit-textarea">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    </textarea>
+                  </div>
+                </div>
+              </div>
+
+              <!-- subtasks -->
+              <div class="container-fluid mb-4">
+                <div class="row">
+                  <div class="col-1 pl-0 pr-0">
+                    <span class="far fa-check-square text-muted"></span>
+                  </div>
+                  <div class="col-11 pl-0 pr-0">
+                    <h6 class="h6 mb-3">Subtareas: completadas 3 de 5</h6>
+                    <div class="app-edit-progress progress mb-3">
+                      <div class="progress-bar" style="width: 60%;"></div>
+                    </div>
+                    <div class="custom-control custom-checkbox mb-2">
+                      <input class="custom-control-input" type="checkbox" checked id="subtask-1" />
+                      <label class="custom-control-label" for="subtask-1">
+                        Unificar los eventos
+                      </label>
+                    </div>
+                    <div class="custom-control custom-checkbox mb-2">
+                      <input class="custom-control-input" type="checkbox" checked id="subtask-2" />
+                      <label class="custom-control-label" for="subtask-2">
+                        Unificar las clases de la cabecera
+                      </label>
+                    </div>
+                    <div class="custom-control custom-checkbox mb-2">
+                      <input class="custom-control-input" type="checkbox" id="subtask-3" />
+                      <label class="custom-control-label" for="subtask-3">
+                        Unificar las clases de las tarjetas
+                      </label>
+                    </div>
+                    <div class="custom-control custom-checkbox mb-2">
+                      <input class="custom-control-input" type="checkbox" checked id="subtask-4" />
+                      <label class="custom-control-label" for="subtask-4">
+                        Unificar las funciones de datos
+                      </label>
+                    </div>
+                    <div class="custom-control custom-checkbox mb-2">
+                      <input class="custom-control-input" type="checkbox" id="subtask-5" />
+                      <label class="custom-control-label" for="subtask-5">
+                        Unificar las estilos
+                      </label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- right column -->
+            <div class="col-xl-3 col-4">
+              <h6 class="h6 text-uppercase">Etiquetas</h6>
+              <div class="mb-4">
+                <span class="badge badge-secondary bg-success">JS</span>
+                <span class="badge badge-secondary bg-success">Css</span>
+                <span class="badge badge-secondary bg-success">Html</span>
+              </div>
+              <h6 class="h6 text-uppercase">Acciones</h6>
+              <button type="button" class="btn btn-primary btn-sm mb-2 w-100 text-left">
+                <span class="fas fa-copy mr-2"></span>
+                Duplicar
+              </button>
+              <button type="button" class="btn btn-primary btn-sm mb-2 w-100 text-left">
+                <span class="fas fa-share-alt mr-2"></span>
+                Mover
+              </button>
+              <button type="button" class="btn btn-primary btn-sm mb-2 w-100 text-left">
+                <span class="fas fa-trash-alt mr-2"></span>
+                Borrar
+              </button>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+  </section>
+</div>

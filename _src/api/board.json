@@ -1,0 +1,31 @@
+{
+  "board": {
+    "list": [
+      {
+        "title": "Por hacer",
+        "cards": [
+          {
+            "id": "sdf0s98234n3ki",
+            "title": "Unificar funcionalidad",
+            "description": "Lorem ipsum dolor sit amet",
+            "tags": [
+              "JS",
+              "Css",
+              "Html"
+            ]
+          },
+          {
+            "id": "9f8734ksd",
+            "title": "Pintar el DOM",
+            "description": "Lorem ipsum dolor sit amet",
+            "tags": [
+              "JS",
+              "Css",
+              "Html"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+  <partial src="_head.html"></partial>
+
+  <body>
+    <div class="app">
+      <partial src="_header.html"></partial>
+
+      <main class="app-board d-flex flex-nowrap">
+        <div class="app-list">
+          <div class="p-1 rounded-sm bg-primary shadow">
+            <partial src="_list_header.html" title="Backlog"></partial>
+            <partial src="_card.html" title="Publicar en GitHub Pages"></partial>
+            <partial src="_list_footer.html"></partial>
+          </div>
+        </div>
+
+        <div class="app-list">
+          <div class="p-1 rounded-sm bg-primary shadow">
+            <partial src="_list_header.html" title="Por hacer"></partial>
+            <partial src="_card.html" title="Unificar funcionalidad"></partial>
+            <partial src="_card.html" title="Pintar el DOM"></partial>
+            <partial src="_list_footer.html"></partial>
+          </div>
+        </div>
+
+        <div class="app-list">
+          <div class="p-1 rounded-sm bg-primary shadow">
+            <partial src="_list_header.html" title="Haciendo"></partial>
+            <partial src="_card.html" title="Escuchar eventos"></partial>
+            <partial src="_list_footer.html"></partial>
+          </div>
+        </div>
+
+        <div class="app-list">
+          <div class="p-1 rounded-sm bg-primary shadow">
+            <partial src="_list_header.html" title="Hecho"></partial>
+            <partial src="_card.html" title="Manipular datos"></partial>
+            <partial src="_card.html" title="Guardar los datos en local storage"></partial>
+            <partial src="_card.html" title="Obtener datos del API"></partial>
+            <partial src="_list_footer.html"></partial>
+          </div>
+        </div>
+
+        <partial src="_list_new.html"></partial>
+      </main>
+    </div>
+    <partial src="_menu.html"></partial>
+    <partial src="_edit.html"></partial>
+    <script src="./assets/js/main.js" type="module"></script>
+  </body>
+</html>

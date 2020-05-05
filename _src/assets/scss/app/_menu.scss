@@ -1,0 +1,19 @@
+$app-menu-width: 16rem;
+
+.app-menu {
+  display: block;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 0;
+  transition: $transitions-time width;
+
+  &-inner {
+    width: $app-menu-width;
+    min-height: 100vh;
+  }
+
+  &.show {
+    width: $app-menu-width;
+  }
+}

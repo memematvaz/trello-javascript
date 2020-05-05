@@ -1,0 +1,13 @@
+.app-header {
+  &-input {
+    width: 12rem;
+    transition: $transitions-time width;
+    &:focus-within {
+      width: 20rem;
+    }
+  }
+
+  &-search:focus {
+    box-shadow: none;
+  }
+}

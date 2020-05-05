@@ -1,0 +1,46 @@
+.app-list {
+  margin: 0 0.75rem;
+  min-width: 15rem;
+  max-width: 15rem;
+
+  &-form {
+    display: flex;
+    align-items: flex-start;
+  }
+
+  &-btns {
+    opacity: 0;
+    position: absolute;
+    top: 0.25rem;
+    right: 0.25rem;
+    transition: $transitions-time opacity;
+  }
+
+  &-options:hover &-btns {
+    opacity: 1;
+  }
+
+  &-input {
+    padding: 0 0 0 0.25rem;
+    height: 2.5rem;
+    background: transparent;
+    border-color: transparent;
+    border-width: 0px;
+    transition: all $transitions-time;
+    font-size: 1.5rem;
+    font-weight: 100;
+    color: white;
+    cursor: pointer;
+
+    &:focus {
+      padding-left: 0.5rem;
+      background: white;
+      color: black;
+      cursor: text;
+    }
+
+    &::placeholder {
+      color: #fff6;
+    }
+  }
+}

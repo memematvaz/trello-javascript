@@ -1,0 +1,16 @@
+body {
+  background-color: #e8e8e8;
+}
+
+// app layout: header and board
+
+.app {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+
+  &-board {
+    flex-grow: 1;
+    overflow-x: auto;
+  }
+}

@@ -1,0 +1,16 @@
+.app-card {
+  position: relative;
+  cursor: pointer;
+
+  &-btns {
+    position: absolute;
+    top: 0.25rem;
+    right: 0.25rem;
+    opacity: 0;
+    transition: $transitions-time opacity ease-in-out;
+  }
+
+  &:hover &-btns {
+    opacity: 1;
+  }
+}
